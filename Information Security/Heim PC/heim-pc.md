@@ -120,14 +120,18 @@ Das Betriebssystem könnte nicht aktuell sein und neuste Updates sind nicht inst
 
 # 3 Risikogewichtung vor den Massnahmen
 
-| Risiko | Eintrittswahrscheinlichkeit | Auswirkung | Vertretbarkeit | Risikostufe |  
+![Gewichtung](/Users/fabiangroger/Desktop/gewichtung.png)
+
+![Übersicht Risiken](/Users/fabiangroger/Desktop/risiken.png)
+
+| Risiko | Eintrittsw. | Auswirkung | Vertretbarkeit | Risikostufe |  
 | :------------- | :------------- | :------------- | :------------- | :------------- |  
 | 1. Hackerangriffe | selten | kritisch | bedingt vertretbar | 5 |
 | 2. Fremde im System | möglich | kritisch | nicht vertretbar | 7 |
 | 3. Viren | möglich | kritisch | nicht vertretbar | 7 |
 | 4. Emails / Phishing | möglich | kritisch | nicht vertretbar | 7 |
 | 5. Kinder | gelegentlich | gering | bedingt vertretbar | 4 |
-| 6. Programme von Freunden / Fremden | möglich | spürbar | nicht vertretbar | 6 |
+| 6. Programme von Freunden/Fremden | möglich | spürbar | nicht vertretbar | 6 |
 | 7. Social Media | möglich | spürbar | nicht vertretbar | 6 |
 | 8. Datenverluste | selten | katastrophal | nicht vertretbar | 6 |
 | 9. WLAN | selten | kritisch | bedingt vertretbar | 5 |
@@ -146,6 +150,21 @@ Kosten: ca. CHF 100.-
 Kosten: ca. CHF 150.-
 
 # 5 Risikogewichtung nach den Massnahmen
+
+| Risiko | Eintrittsw. | Auswirkung | Vertretbarkeit | Risikostufe |  
+| :------------- | :------------- | :------------- | :------------- | :------------- |  
+| 1. Hackerangriffe | unwahrscheinlich | kritisch | bedingt vertretbar | 4 |
+| 2. Fremde im System | unwahrscheinlich | kritisch | bedingt vertretbar | 4 |
+| 3. Viren | selten | kritisch | bedingt vertretbar | 5 |
+| 4. Emails / Phishing | selten | kritisch | bedingt vertretbar | 5 |
+| 5. Kinder | selten | gering | vertretbar | 3 |
+| 6. Programme von Freunden/Fremden | selten | spürbar | bedingt vertretbar | 4 |
+| 7. Social Media | selten | spürbar | bedingt vertretbar | 4 |
+| 8. Datenverluste | selten | spürbar | bedingt vertretbar | 4 |
+| 9. WLAN | unwahrscheinlich | kritisch | bedingt vertretbar | 4 |
+| 10. Aktuelle Software | unwahrscheinlich | gering | vertretbar | 2 |
+
+![Übersicht Risiken nach Massnahmen](/Users/fabiangroger/Desktop/risiken2.png)
 
 # 6 Fazit
 Die grössten Sicherheitsrisiken in dieser Fallstudie gehen vor allem auf diese wichtigen Faktoren zurück:  
