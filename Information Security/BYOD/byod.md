@@ -5,8 +5,11 @@ date: 29.03.2018
 output: pdf_document
 toc: Inhaltsverzeichnis
 toc-title: Inhaltsverzeichnis
+lang: de-CH
 ---
+
 ***
+
 # 1 Einleitung
 In der heutigen Informationsgesellschaft gehören Laptops, Tablets und Smartphones zu einer der wichtigsten Arbeitsgeräte von Arbeitnehmern, Schülern und Studenten. Private Geräte werden für berufliche oder schulische Arbeiten verwendet und dies führt somit zwangsläufig zu einer Vermischung der privaten und geschäftlichen Ebenen, was Bring Your Own Device (BYOD) immer mehr in die Arbeitswelt integriert. Dies bringt jedoch einige Risiken für die Arbeitgeber mit sich, wenn etwa die Nutzer ihre eigenen Geräte ohne Kenntnis des Arbeitgebers nutzen oder wenn klare Regelungen fehlen. Es müssen Vereinbarungen und Richtlinien geschaffen werden, um die Risiken einzuschränken und den Nutzen zu optimieren.
 
