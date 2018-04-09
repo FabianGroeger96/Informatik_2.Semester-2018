@@ -2,7 +2,7 @@
 
 Dateien zum 2. Informatik Semester 2018 an der Hochschule Luzern
 
-## Fächer
+## Module
 
 * Fachkommunikation
 * Information Security
