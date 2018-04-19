@@ -12,9 +12,9 @@ lang: de-CH
 
 # LAB: ZFS
 
-## ZPool
+## 1 ZPool
 
-### Erstellung eines zpools
+### 1.1 Erstellung eines zpools
 
 #### Wie viel Speicher steht Ihnen im mypool zur Verfügung (zpool list) und wie können Sie darauf zugreifen (zfs list)?
 
@@ -52,15 +52,15 @@ Ja, die vorher erstellte Datei ist noch vorhanden. Die Speicherkapazität hat si
 
 Nun stellt der zpool 39.8G zur Verfügung.
 
-## ZFS Datasets
+## 2 ZFS Datasets
 
-### ZFS Dataset erstellen
+### 2.1 ZFS Dataset erstellen
 
 #### In welchem Verzeichnis steht Ihnen die neuerstellten ZFS Datasets zur Verfügung?
 Im Verzeichnis mypool wurde ein neues Verzeichnis home erstellt und dort die restlichen.
 (/mypool/home/..)
 
-### Quotas und Reservations
+### 2.2 Quotas und Reservations
 
 #### Können Sie nun noch eine weitere Datei in einem anderen mypool/home/ Directory erstellen?
 Nein, kann ich nicht weil wir die Kapazität schon genutzt haben.
@@ -73,19 +73,19 @@ Wenn die Kapazität für den mypool genügend gross wäre, dass jedes Dataset ei
 
 Gar nicht, der mypool/home/my_home wurde auf 99.9M vergrössert, die anderen bleiben alle bei ihren 49.9M.
 
-### Snapshots
+### 2.3 Snapshots
 
 #### Finden Sie nun einen Weg, wie Sie auf den Inhalt des Files /data/file1 zugreifen können, ohne den Befehl zfs rollback zu verwenden. Zeigen Sie Ihren Weg kurz auf:
 
 ???
 
-### ZFS Dataset mit NFS freigeben
+### 2.4 ZFS Dataset mit NFS freigeben
 
 #### Was sehen Sie für Nachteile auf dem NFS Share den Sie eingerichtet haben (Zugriff, Sicherheit, Dateiowner)?
 
 ??
 
-### ZFS Deduplication und Komprimierung
+### 2.5 ZFS Deduplication und Komprimierung
 
 #### Was stellen Sie fest?
 
