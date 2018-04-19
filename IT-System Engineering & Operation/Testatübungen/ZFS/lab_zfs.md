@@ -1,3 +1,15 @@
+---
+title: LAB ZFS
+author: Lukas Hecht und Fabian Gröger
+date: 19.04.2018
+output: pdf_document
+toc: Inhaltsverzeichnis
+toc-title: Inhaltsverzeichnis
+lang: de-CH
+---
+
+***
+
 # LAB: ZFS
 
 ## ZPool
