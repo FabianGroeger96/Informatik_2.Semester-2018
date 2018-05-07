@@ -4,6 +4,7 @@ Dateien zum 2. Informatik Semester 2018 an der Hochschule Luzern
 
 ## Module
 
+* Algorithmen & Datenstrukturen
 * Diskrete Mathematik
 * Fachkommunikation
 * Information Security
