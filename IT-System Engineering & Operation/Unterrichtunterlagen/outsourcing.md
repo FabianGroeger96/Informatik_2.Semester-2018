@@ -11,6 +11,8 @@ Wo sehen Sie die Gründe für das Outsourcing? Was sind die Überlegungen von 
 
 * Kostenreduktion
 * Ausschöpfung von "Grössenvorteilen"
+* Vermeidung von hohen Investitionen
+* Umwandeln von Betriebskosten: Fixkosten in Variablekosten (Per Views Prinzip, zahlt nur das was man braucht)
 
 ## Personal
 
