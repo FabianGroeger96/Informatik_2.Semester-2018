@@ -4,11 +4,11 @@
 
 ### 1.1 Lernziele
 
-1. LZ1: Sie kennen die Grundbegriffe im Projektmanagement und können Projekte von anderen Unterfangen unterscheiden
-2. LZ2: Sie kennen wesentliche Faktoren die zum Projekterfolg beitragen und wissen, aus welchen Gründen Projekte scheitern
-3. LZ3: Sie kennen die aktuellen Kategorien der Vorgehensmodelle und können deren wesentliche Elemente und die Unterschiede erklären
-4. LZ4: Sie kennen die verschiedenen Projektorganisationsformen und typische Rollen und Gremien der Projektinstitution
-5. LZ5: Sie kennen die Grundzüge des SoDa Vorgehensmodells
+1. LZ1: Sie kennen die Grundbegriffe im Projektmanagement und können Projekte von anderen Unterfangen unterscheiden.
+2. LZ2: Sie kennen wesentliche Faktoren die zum Projekterfolg beitragen und wissen, aus welchen Gründen Projekte scheitern.
+3. LZ3: Sie kennen die aktuellen Kategorien der Vorgehensmodelle und können deren wesentliche Elemente und die Unterschiede erklären.
+4. LZ4: Sie kennen die verschiedenen Projektorganisationsformen und typische Rollen und Gremien der Projektinstitution.
+5. LZ5: Sie kennen die Grundzüge des SoDa Vorgehensmodells.
 
 ### 1.2 Grundbegriffe
 
@@ -37,7 +37,7 @@ Projekte sind in sich abgegrenzte, komplexe und / oder komplizierte Aufträge, d
 
 #### 1.2.3 Teufelsquadrat
 
-![Teufelsquadrat](teufelsquadrat.png)
+![Teufelsquadrat](Assets/teufelsquadrat.png)
 
 #### 1.2.4 Projektmanagement
 
@@ -78,7 +78,7 @@ Um bei einer Aufgabe, die Erwartungen an ein Projekt so weit wie möglich zu erf
 
 Diese drei Grössen stehen in Zielkonkurrenz zueinander, eine Änderung an einer Grösse führt zu Änderungen an einer oder beiden anderen Grössen.
 
-![Magisches Dreieck](magisches_dreieck.jpg)
+![Magisches Dreieck](Assets/magisches_dreieck.jpg)
 
 ### 1.4 Vorgehensmodelle
 
@@ -86,7 +86,7 @@ LZ3: Sie kennen die aktuellen Kategorien der Vorgehensmodelle und können deren 
 
 Die Projektführung hat in fast allen Projekten die gleichen Aufgaben aber mit unterschiedlichen Ausprägungen. Bei der Projektdurchführung gibt es je nach Projektart oder Vorgehensmodell Unterschiede.
 
-![Projektführung und Projektdurchführung](vorgehensmodelle.png)
+![Projektführung und Projektdurchführung](Assets/vorgehensmodelle.png)
 
 Unter einem Vorgehensmodell versteht man eine projektübergreiffende Regelung, wie Aktivitäten oder Ergebnisse umgesetzt bzw. bearbeitet werden.
 
@@ -114,7 +114,7 @@ Unter einem Vorgehensmodell versteht man eine projektübergreiffende Regelung, w
 
 Treten neue oder geänderte Anforderungen an die Software auf, müssen diese in einem komplett neuen Zyklus umgesetzt werden. Dies ist ein sehr starres Vorgehen, welches wenig Flexibilität bietet. Kritisch wird dieses Vorgehen, wenn in einer Phase erkannt wird, dass die vorherige Phase unvollständige Ergebnisse geliefert hat.
 
-![Wasserfall Modell](wasserfall_modell.png)
+![Wasserfall Modell](Assets/wasserfall_modell.png)
 
 **V-Modell**
 
@@ -122,9 +122,9 @@ Die Phasen laufen von links oben nach unten und dann von rechts unten nach recht
 
 Wird allerdings in Phase 6 bei der Abnahmeprüfung festgestellt, dass die Anforderungen in Phase 1 unzureichend verstanden wurden, dürfte dies in den meisten Fällen zum Projektabbruch und damit zum Scheitern des Projektes führen. Es ist dabei zu beachten, dass in großen Projekten zwischen Analyse (Phase 1) und Systemabnahme (Phase 6) durchaus mehrere Jahre liegen können.
 
-![V-Modell](v_modell_1.png)
+![V-Modell](Assets/v_modell_1.png)
 
-![V-Modell](v_modell_2.png)
+![V-Modell](Assets/v_modell_2.png)
 
 **Nachteile**
 
@@ -180,7 +180,7 @@ Die Sprint Planung wird zusammen mit dem Entwicklungsteam verhandelt damit Zielk
 
 Der Sprint-Abschluss welcher am Ende jedes Sprints stattfindet, wird ermittelt welche Funktionen akzeptiert und freigeben werden.
 
-![Scrum aus SLGP](scrum.png)
+![Scrum aus SLGP](Assets/scrum.png)
 
 Software entwickelt sich von Sprint zu Sprint inkrementell. Ganzes Projekt wird in Sprints unterteilt und stellt den Arbeitszyklus dar. Kurze Iterationen, bei denen inkrementell entwickelt wird. Durch kurze Iterationen und kurze Release-Zyklen wird schnelles Feedback beim Kunden über den Fortschritt und Funktionsumfang eingeholt. Dieses schnelle Feedback dient zur Steuerung der weiteren Entwicklung.
 
@@ -223,7 +223,7 @@ Befinden sich im Sprint, dass sind die einzelnen Anforderungen basierend auf den
 
 Beschreibt ein Vorgehen in nacheinander folgenden Iterationen, ein Verfahren der schrittweisen Annäherung  an die exakte oder endgültige Lösung. Eine Iteration ist eine zeitlich und fachlich in sich abgeschlossene Einheit.
 
-![Iteratives Vorgehen](iterativ.png)
+![Iteratives Vorgehen](Assets/iterativ.png)
 
 Dabei werden in jeder Iteration alle Projektphasen durchlaufen. Jede abgeschlossene Iteration liefert einen funktionierenden Zwischenstand des Produkts – einen inkrementellen Release.
 
@@ -294,7 +294,7 @@ Beim klassischem Modell ist die Leistung fix. Als Beispiel: die Einführung eine
 
 Beim agilen Modell ist die Zeit und der Aufwand fix. Als Beispiel: Neues Produkt, Entwicklung einer Labor Software. Die Leistung ist also variabel und es kann auch möglich sein, dass wen die Zeit und der Aufwand zu Ende geht, nicht alle Leistungen im Projekt enthalten sind.
 
-![Klassisch vs. Agil](klassischvsagil.png)
+![Klassisch vs. Agil](Assets/klassischvsagil.png)
 
 Klassisch:
 
@@ -330,7 +330,7 @@ Denn nur, wenn alle beteiligten Personen wissen, welche Aufgaben, Verantwortunge
 
 Alle Projektmitarbeiter werden aus ihren jeweiligen Abteilungen abgezogen und vollständig der Projektorganisation zugeordnet.
 
-![Reine Projektorganisation](reine_po.png)
+![Reine Projektorganisation](Assets/reine_po.png)
 
 **Vorteile:**
 
@@ -354,7 +354,7 @@ Alle Projektmitarbeiter werden aus ihren jeweiligen Abteilungen abgezogen und vo
 
 Hier bleiben die Mitarbeiter in ihren jeweiligen Abteilungen und die Weisungsbefugnisse werden zwischen Stamm- und Projektorganisation aufgeteilt. Jeder Abteilungsleiter behält die disziplinarische Weisungsbefugnis über seine Mitarbeiter. Der PL hat bis zu einem bestimmten Prozentsatz Zugriff auf die Mitarbeiter. Muss aber auf das Tagesgeschäft innerhalb den Abteilungen schauen. Dadurch ist der Abstimmungs-/Kommunikationsbedarf zwischen Projektleiter und Abteilungsleiter, aber auch mit den Mitarbeitern deutlich höher als bei der autonomen Projektorganisation.
 
-![Matrix Projektorganisation](matrix_po.png)
+![Matrix Projektorganisation](Assets/matrix_po.png)
 
 **Vorteile:**
 
@@ -379,7 +379,7 @@ Hier bleiben die Mitarbeiter in ihren jeweiligen Abteilungen und die Weisungsbef
 
 Bei der Stablinien Projektorganisation ist der Projektleiter nur koordinierend und beratend tätig. Er wird in einer sogenannten Stablinie zwischen Unternehmens- und Abteilungsleitung angesiedelt. Deshalb heisst diese Organisationsform auch Stablinien Projektorganisation.
 
-![Stablinien Projektorganisation](stablinien_po.png)
+![Stablinien Projektorganisation](Assets/stablinien_po.png)
 
 **Vorteile:**
 
@@ -413,6 +413,173 @@ Bei der Stablinien Projektorganisation ist der Projektleiter nur koordinierend u
 * Projekt Mitarbeiter
 * projekt Office
 
-![Rollen klassisches / hybrides Vorgehen](rollen.png)
+![Rollen klassisches / hybrides Vorgehen](Assets/rollen.png)
 
 ### 1.6 SODA
+
+LZ5: Sie kennen die Grundzüge des SoDa Vorgehensmodells
+
+**Welche Phasen sind beim SoDa agil / welche klassisch und für welches Vorhaben eignet sich das SoDa Modell?**
+
+* Agil: Konzeptions- und Realisierungsphase
+* Klassisch: Einführung, Nutzung
+
+Beim SoDa Modell verläuft Konzeptions- und Realisierungsphase wie bei Scrum. Die anderen Phasen werden eher wie beim klassischen Model gehalten. Somit ist während der Entwicklung ein agiles Vorgehen möglich. Jedoch sind die anderen Phasen geordnet.
+
+**Grundlagen SoDa**
+SoDa basiert auf dem Vorgehensmodell Scrum und bindet dieses in einen Projektmanagement-Rahmen ein.
+
+Es gibt 4 verschiedene Rollen:
+
+* Scrum Team
+* Product Owner
+* Scrum Master
+* Projektleiter
+
+**Für welche Projekte eignet sich SoDa?**
+Im Fokus sind Software-Entwicklungsvorhaben mit kleineren Teams über einige Monate.
+
+## 2 Projektplanung
+
+### 2.1 Lernziele
+
+1. LZ1: Sie können für ein kleines bis mittleres Projekt eine Projektplanung vollständig durchführen.
+2. LZ2: Sie sind in der Lage dies für ein klassisches Projekt basierend auf Arbeitspaketen und für ein agiles respektive hybrides Projekt zu tun.
+3. LZ3: Sie sind in der Lage, aus der Beschreibung der Ausgangslage und dem Anforderungskatalog eines Projekts Teilresultate und Resultate für ein Projekt zu definieren.
+
+### 2.2 Projektziele
+
+**Definition Projektziel**
+Ein Projektziel ist ein angestrebter zukünftiger Zustand, welcher nach Inhalt, Mass und Zeit genau bestimmt wird.
+
+Eine Anforderung ist eine Aussage über eine Eigenschaft oder Leistung eines Produktes.
+
+**Projektziele sollten S.M.A.R.T. formuliert sein:**
+
+* **S**pezifisch
+    * Was soll genau erreicht werden?
+    * Wo soll genau angesetzt werden?
+    * Welche spezifischen Eigenschaften hat das zu erreichende Ziel?
+    * Ist das Ziel interpretationsfrei?
+    * Ist der Kontext des Ziels ausreichend berücksichtigt?
+* **M**essbar
+    * Wie möchte ich das messen?
+    * Woran mache ich die Zielerreichung fest?
+    * Wie viel davon genau?
+* **A**ngemessen
+    * Besteht ein Bedarf für die geplante Massnahme?
+    * Ist das Ziel angemessen?
+    * Ist das Ziel attraktiv?
+    * Ist das Ziel motivierend genug?
+* **R**ealistisch
+    * Ist das Ziel generell machbar?
+    * Ist die Zielerreichung durch dich (und dein Team) beeinflussbar?
+    * Ist das Ziel mit gegebenen Ressourcen in der gegebenen Zeit erreichbar?
+* **T**erminiert
+    * Bis wann soll das Ziel erreicht sein?
+    * Gibt es Zwischentermine?
+
+Beispiele:
+
+Schlecht: Ich will weniger rauchen.
+Besser: Ab dem 1.5. Rauche ich keine einzige Zigarette mehr, bis zum Rest meines Lebens.
+
+Schlecht: Die Stakeholder sollen informiert werden.
+Besser: Alle in der Stakeholder-Analyse mit Priorität A gekennzeichneten Stakeholder erhalten jeweils zum Monatsende einen 2-seitigen Statusbericht mit Angaben über Soll- und Ist-Stand des Projektes und aktuelle Aktivitäten per Mail zugesendet.
+
+Schlecht: Bessere Nutzerfreundlichkeit.
+Besser: Die Usability der Software wird von mindestens 90% der Teilnehmer eines Usability-Tests mit „Sehr gut“ bewertet.
+
+### 2.3 Projektresultate
+
+**Definition Projektresultate**
+
+* Projektresultaten meint man die Arbeitsergebnisse, welche das Projekt abzuliefern hat. Man beschreibt, was der Auftraggeber oder die Benutzer "in die Hand" kriegen
+* Projektresultate präzise und vollständig definieren und beschreiben!
+* Resultate sind nicht Aktivitäten!
+
+**Eigenschaften von Projektresultate, werden gebraucht für**
+
+* Werden gebraucht für die Erstellung von Arbeitspaketen, Projekt-Controlling und Projekt-Repporting
+* Klassisch: Hauptresultate werden unterteilt in Teilresultate. Teilresultate können dann 1-n Arbeitspakete enthalten.
+* Agil: Hauptresultate werden in n-Sprints unterteilt und 1 Sprint enthält im Nachhinein n Sprint-Backlog-Items
+
+![Projektplanung](Assets/projektplanung.png)
+
+**Welche Ergebnisse liegen in einem IT-Projekt vor:**
+
+* Applikationssoftware
+* Applikationsdokumentation
+* Prozesse
+* (Migration)
+* Projekt-Management Ergebnisse
+
+### 2.4 Arbeitspakete
+
+**Definition Arbeitspaket**
+
+Ist die kleinste Planungseinheit und ist eine in sich geschlossenen Aufgabe welche bis zu einem festgelegten Zeitpunkt, mit einem definierten Ergebnis und Aufwand vollbracht werden kann.
+
+![Arbeitspaket](Assets/arbeitspaket.png)
+
+Ein Arbeitspaket sollte zwischen 5 bis 20 Personentage Aufwand haben.
+
+### 2.5 Meilensteine
+
+**Definition Meilenstein**
+
+Ein geplanter Punkt im Projektablauf an dem vorher festgelegte, messbare Ergebnisse vorliegen, die es erlauben den Projektfortschritt festzulstellen.
+
+**Was gehört zu jedem Meilenstein?**
+
+Zu jedem Meilenstein gehören Artefakte:
+* Prototypen / Prereleases / Releases
+* Testprotokolle
+* Entwurfsdokumente
+
+**Wann ist der Meilenstein erreicht?**
+
+Wenn die entsprechenden Artefakte vorliegen und ihre Prüfung (Review / Test) erfolgreich war.
+
+**Meilensteine beim klassischen Model**
+
+Bei einem klassischen Model sind die Meilensteine praktisch durch die Phasen vorgegeben.
+
+![Meilensteine beim klassischen Model](Assets/meilenstein_klassisch.png)
+
+**Meilensteine beim hybriden Model**
+
+Bei einem hybriden Modell muss der Meilensteinplan beim Kick-Off vorliegen. Damit der Product Owner die Einteilung in die jeweiligen Sprints durchführen kann.
+
+![Meilensteine beim hybriden Model](Assets/meilenstein_hybrid.png)
+
+### 2.6 Scope
+
+**Definition Scope**
+
+Beschreibt einerseits was nicht zum Projekt (OUT of scope) gehört und anderseits was die Einschränkungen sind.
+
+Vielfach wird auch teilweise beschrieben, was zum Scope (IN scope) gehört. Trotzdem dies eigentlich mit der Beschreibung der Resultate nicht notwendig wäre.
+
+### 2.7 Anforderungen
+
+**Definition Anforderung**
+
+Eine Anforderung ist eine Aussage über eine Eigenschaft oder Leistung eines Produktes, eines Prozesses oder der am Prozess beteiligten Personen.
+
+**Anforderung / Backlock-Item besteht aus:**
+
+* Titel (kurzer Aussagekräftiger Namen)
+* Beschreibung (So viel wie nötig, so wenig wie möglich)
+* Priorisierung
+* Status (Klassisch: Entgegengenommen, Geprüft und Aktzeptiert, Geprüft aber auf nächsten Release verschoben/ Agil: Alle Anforderungen im Backlog haben Status proposed «Geprüft aber auf nächsten Release verschoben» erst im Sprint haben sie «Geprüft und Akzeptiert»
+* Source: Person von dessen die Anforderung stammt
+* Komplexität: (Klassig: Wird vom PL geschätzt, Agil: Erst wenn die Anforderung im Sprint-Backlog ist, wird dieser auf Initiative des Product Owners mit dem Team geschätzt)
+* Benefit: Beschreibung des Nutzens der Anforderung (wird für Prio genutzt)
+
+![Anforderung](Assets/anforderung.png)
+
+Priorität ist beim klassischen Model fixiert.
+Priorität wird beim hybriden Model laufend festgesetzt.
+
+## 3 Projektplanung Klassisch
