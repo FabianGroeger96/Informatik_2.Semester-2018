@@ -711,3 +711,97 @@ Es werden dank dem Pull-Prinzip in einem Sprint so viele der höchst priorisiert
 **Welche Phasen werden beim Scrum / agilen Vorgehen wiederholt?**
 
 * Konzeptions- und Realisierungsphase
+
+![Iterativ-Inkrementelles Vorgehen](Assets/rekapitulation.png)
+
+Beim SCRUM wird iterativ vorgegangen. Es ist kaum möglich von Anfang an alle Anforderungen zu erfassen. Das SCRUM Vorgehen erlaubt, dass die Konzeptions-und Realisierungsphase wiederholt wird, so werden die Anforderungen ergänzt und die Software immer wieder aufs Neue angepasst. Software wird so schrittweise entwickelt.
+
+**Welche Phasen sind beim SoDa agil, welche klassisch?**
+
+* Agil: Konzeptions-und Realisierungsphase
+* Klassisch: Initialisierung (mit Projektauftrag, Projektplan, Anforderungskatalog) und Einführung
+
+![Projektplanung SoDa](Assets/projektplanung_soda.png)
+
+Dieses Modell trägt einerseits dem Bedürfnis von Auftraggebern und übergeordneter Organisation nach geordneter Projektdurchführung mit standardisierten Phasen und  Meilensteinen Rechnung. Andererseits wird sichergestellt, dass die Software iterativ-inkrementell entwickelt wird und sich agil an den Bedürfnissen und Möglichkeiten orientiert.
+
+#### 3.6.1 Planung
+
+Beim Hybriden Modell wird nicht von Anfang an die ganze Planung für das ganze Projekt erstellt. Die Planung und Umsetzung sind viel dichter miteinander verknüpft.
+
+**Wie sieht die Projektplanung beim agilen Modell aus?**
+
+* Es beginnt nicht wie beim klassischen Modell in der Initialisierungsphase
+* Es wird nur einmal die Meilensteinplanung gemacht und 
+* Dann innerhalb der Meilensteine werden die Dauer der Sprints für die Konzeptions- und Realisierungsphase festgelegt.
+
+**Mit welchem Verfahren werden die Iterationen / Sprints geplant?**
+
+Innerhalb der Meilensteinplanung werden nun die Iterationen via Time-Boxing Verfahren festgelegt.
+
+![Meilensteinplanung](Assets/planung_hybrid_meilenteine.png)
+
+#### 3.6.2 Ablaufplan und Ressourcenplanung
+
+**Wie sieht der Ablauf- und Ressourcenplan beim agilen Vorgehen aus und wer ist dafür verantwortlich?**
+
+Für den Ablauf und Ressourcenplan ist der Product Owner verantwortlich. Die Ablaufplanung und Ressourcenplanung erfolgt auf zwei Ebenen.
+
+1. Produkt-Backlog: Initiale Erstellung und laufende Pflege,
+    * Erfassen der Einträge im Backlog
+    * Ordnen der Einträge in eine zielführende Fertigstellungsreihenfolge
+    * Transparenz für alle Beteiligten sichern (alle haben Zugriff auf das Backlog)
+    * Fortlaufende Pflege (Grooming) des Produkte Backlogs
+2. Sprint-Backlog
+    * Auf Basis der Rahmenplanung im Backlog, die Anforderungen mit der höchsten Priorität in die nächste Sprint-Backlog einfügen, sinnvolles Sprint-Backlog-Ziel festlegen
+    * Ausgewählte Backlog-Items konkretisieren und Aufwand schätzen
+
+#### 3.6.3 Produkt Backlog und Backlog Items
+
+**Ist das Produkte-Backlog in der Initialisierungsphase abgeschlossen?**
+
+Nein, das Produkte-Backlog lebt während der Konzeptions- und Realisierungsphase weiter, es wird fortlaufend gepflegt und angepasst (Grooming).
+
+**Im Gegensatz zum Klassischen Modell ist das Produkte – Backlog am Ende der Initialisierungsphase:**
+
+* Nicht vollständig
+* Die Anforderungen sind zu 80% identifiziert.
+* Anforderungen sind priorisiert
+* User-Storys für den 1. Sprints werden ausgewählt
+
+**Status der Anforderungen im Produkte Backlog und im Sprint-Backlog?**
+
+* Die Anforderungen sind im Status «proposed»
+* Agil: Alle Anforderungen im Backlog haben Status proposed «Geprüft aber auf nächsten Release verschoben» erst im Sprint haben sie «Geprüft und Akzeptiert»
+* Anforderungen sind nicht endgültig Priorisiert
+
+**Was ist ein Epic und was hat es mit der Initialisierungsphase zu tun?**
+
+In der Initialisierungsphase werden die Anforderungen im Produkte-Backlog meist grobgranular als Epics beschrieben. Ein Epic kann ein kompletter Arbeitsablauf sein, welcher danach noch in einzelne User-Storys heruntergebrochen wird.
+
+**Userstory Definition**
+
+Eine UserStory ist eine eigenständige Arbeitseinheit, die von den Entwicklern und den Stakeholdern vereinbart wurde. Stories sind das Herz von Scrum und die Bausteine der Sprints.
+
+**Was ist ein other Workitem?**
+
+* Other Workitems: technische Aufgaben die nötig sind um die Anforderungen zu entwickeln (stabilisieren der Architektur)
+
+![Workitem](Assets/workitem.png)
+
+![Backlog Item](Assets/backlog.png)
+
+**Definition Grooming**
+
+* Grooming: Mindestens 1 Mal pro Sprint wird ein Grooming vom Product Owner durchgeführt, es werden:
+    * Neue Einträge hinzugefügt (Neue Anforderungen)
+    * Nicht mehr benötigte Einträge gelöscht
+    * Die Priorisierung der Anforderungen aktualisiert
+    * Aufwände korrigiert / ergänzt
+    * Produkt-Backlog Grooming Meeting in der Mitte des Sprints angesetzt inkl. Scrum Team
+* D.E.E.P:
+* Ein guter Produkte-Backlog hat die D.E.E.P Eigenschaften:
+    * Detailed: Angemessen Detailiert, direkt vor dem Sprint so detailiert dass er umsetzbar ist
+    * Estimated: Team schätzt Aufwand eines Backlog-Item
+    * Emergent (Entwickelt sich, wird gepflegt): Wird lauffend gepflegt, der PO pflegt zusammen mit dem Team das Produkte-Backlog (grooming) 
+    * Prioritised: Jedes Backlog-Item muss eine Priorität haben, damit man weis ob es in den nächsten Print reinkommt oder nicht.
