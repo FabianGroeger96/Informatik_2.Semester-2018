@@ -524,6 +524,25 @@ Ist die kleinste Planungseinheit und ist eine in sich geschlossenen Aufgabe welc
 
 Ein Arbeitspaket sollte zwischen 5 bis 20 Personentage Aufwand haben.
 
+**Arbeitspaket Inhalt**
+
+* Titel
+* Beschreibung
+* Aufwand von ca. 2 bis 20 Arbeitstage (Arbeitspakete die weniger als 2 Tage dauern, sollen zusammengefasst werden) 
+* Sollte einem MA zugewiesen sein (eine MA sollten nicht mehr als 2 Arbeitspakete zeitgleich zugeordnet sein)
+* Ein MA nicht mehr als 2 Arbeitspakete gleichzeitig
+
+**Arbeitspaket erstellen**
+
+Nach dem die Ziele definiert wurden, daraus Anforderungen erstellt sind und die Resultate festgelegt wurde, können Arbeitspakete erstellt werden.
+
+* Anforderung (entsteht aus Ziel) werden auf die Resultate gemappt
+* Aus diesem Mapping kann in der Regel ein Arbeitspacket generiert werden
+* Benennung Arbeitspacket
+* Schätzung des Aufwandes Arbeitspacket
+* Vorgänger / Nachfolger definieren (festlegen der logischen Abläufe im Ablaufplan)
+
+
 ### 2.5 Meilensteine
 
 **Definition Meilenstein**
@@ -583,3 +602,112 @@ Priorität ist beim klassischen Model fixiert.
 Priorität wird beim hybriden Model laufend festgesetzt.
 
 ## 3 Projektplanung Klassisch
+
+### 3.1 Projektstandsitzung
+
+* Garantiert einen regelmässigen Informationsfluss innerhalb des Projektes
+* Sie bietet eine Plattform um über Probleme zu sprechen und Entscheide zu fällen
+* Es findet das Reporting der Projekt Mitarbeiter oder Teilprojektleiter gegenüber dem Projektleiter statt
+
+### 3.2 Projektstrukturplan
+
+Eine resultatortientierte Gliederung der Gesamtaufgabe in Teilresultate / Arbeitspakete.
+
+Der Projektstrukturplan ist die vollständige Darstellung aller Elemente eines Projekts und ihrer Beziehungen. Dabei werden die Elemente werden hierarchisch gegliedert, so dass eine Baumstruktur entsteht. Der PSP beinhaltet keine zeitliche Aussage über die Abarbeitung des Projektes, sondern gibt lediglich die Strukturierung wider. Der PSP wird auch als WBS (Work Breakdown Structure) bezeichnet.
+
+![Projektstrukturplan 1](Assets/projektstrukturplan_1.png)
+
+![Projektstrukturplan 2](Assets/projektstrukturplan_2.png)
+
+### 3.3 Ablaufplan
+
+**Definition Ablaufplan**
+
+Hier werden die logischen Abhängigkeiten der einzelnen Arbeitstakte festgelegt.
+
+Grundlegend können die Arbeitspakete in Phasen unterteilt werden. Die Arbeitspakete innerhalb einer Phase sollten parallel bearbeitbar sein.
+
+* Arbeitspakete möglichst parallel laufen lassen
+* Abhängigkeiten nur dort wo wirklich notwendig
+
+**Definition Kritischer Pfad im Projekt**
+
+Wenn keine Pufferzeit mehr zur Verfügung steht, Aneinandergereihte abhängige Arbeitspakete welche keine Pufferzeit mehr haben.
+
+**Warum wird beim hybriden Vorgehen ohne Zeitreserven geplant?**
+
+Beim hybriden Vorgehen wird ohne Zeitreserven geplant, es werden dank dem Pull-Prinzip in jedem Sprint so viele der höchst priorisierten Stories wie möglich umgesetzt.
+
+### 3.4 Aufwandschätzung
+
+**Vorgehen Aufwandschätzung**
+
+1. Zuerst Aufwandschätzung mittels Nettomethode. Mittels Nettomethode ein Arbeitspacket nach Aufwand schätzen, ohne äusserliche Einflüsse oder Risiken
+2. Vorgehen Aufwandschätzung Bruttomethode:  Mittels Bruttomethode ein Arbeitspacket nach Aufwand schätzen, mit äusserlichen Einflüssen und Risiken
+3. Gesamtes Projekt schätzen
+
+![Aufwandschätzung](Assets/aufwandschaetzung.png)
+
+**Welche Schätzmethode wenden wir an? Und wie geht die?**
+
+Es gibt verschiedene Schätzmethoden. Wir lernen die «Individual Expert Judgement» Methode kennen.
+
+Dabei werden die Arbeitspakete von einem Experten geschätzt.
+
+Personen die das Projekt durchführen sollen den Aufwand schätzen. Bei Unsicherheit kann zur Gesamtschätzung einen Aufwand von 10 bis 20 % addiert werden.
+
+**Alternative Schätzmethoden**
+
+Alternative Methode «Delphi Wideband»: Schätzung von Experten innerhalb einer Gruppe
+
+Iterationen werden mit dem Time-Boxing Verfahren geplant.
+
+Beim Time-Boxing-Verfahren schätzt man keinen Aufwand, sondern gibt einen maximalen Aufwand (timeboxing) vor. Nach Erreichen des Aufwandes werden die Arbeiten gestoppt. fixe Dauer, flexibler Inhalt
+
+Das Proof of Concept wird im Time-Boxing Verfahren geschätzt, damit das Artefakt in einer relativ kurzen Zeit fertiggestellt werden kann.
+
+### 3.5 Ressourcenplanung
+
+**Definition Ressourcenplanung**
+
+Zuordnung der Mitarbeiter zu den Arbeitspaketen und die Verteilung der Arbeitspakete auf die Zeitachse.
+
+Input:
+Alle Arbeitspakete inkl. Aufwandplanung und Ablaufplan
+
+Ziel:
+Zuteilung der Arbeitspakete an die Mitarbeiter und die Dauer der Arbeitspakete bzw. des Projektes ermitteln
+
+Output:
+Dauer des Projektes und als Lieferobjekt der Ressourcen-Plan
+
+**Vorgehen**
+
+* Festlegung der anhand der Arbeitspakete benötigte Skillprofile und Zuordnung der Arbeitspakete an die Profile
+* Verfügbare Mitarbeiter anschauen und Zuordnung der Arbeitspakete an die Mitarbeiter
+* Verteilung der Aufwände pro Arbeitspakete und Mitarbeiter auf die Zeitachse unter Beachtung der Auslastung der Mitarbeiter.
+
+**Warum wird beim agilen Vorgehen ohne Zeitreserven geplant?**
+
+Es werden dank dem Pull-Prinzip in einem Sprint so viele der höchst priorisierten User-Storys umgesetzt.
+
+**Wie wird der Personalbedarf gerechnet?**
+
+![Personalbedarf Idealfall](Assets/personalbedarf_1.png)
+
+![Personalbedarf Normalfall](Assets/personalbedarf_2.png)
+
+### 3.6 Projektplanung Hybrid
+
+**Unterschied Klassisch vs. Agil**
+
+* Anforderungen
+* Zeitplan
+
+![Unterschied Klassisch vs. Agil](Assets/projektplanung_hybrid_1.png)
+
+![Projektplanung Agil](Assets/projektplanung_hybrid_2.png)
+
+**Welche Phasen werden beim Scrum / agilen Vorgehen wiederholt?**
+
+* Konzeptions- und Realisierungsphase
