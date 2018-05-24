@@ -1,3 +1,15 @@
+---
+title: Projekt Management Basic
+author: Fabian Gröger
+date: 24.05.2018
+output: pdf_document
+toc: Inhaltsverzeichnis
+toc-title: Inhaltsverzeichnis
+lang: de-CH
+---
+
+***
+
 # Projekt Management Basic
 
 ## 1 Projekt Management Grundlagen
@@ -739,7 +751,7 @@ Beim Hybriden Modell wird nicht von Anfang an die ganze Planung für das ganze P
 
 Innerhalb der Meilensteinplanung werden nun die Iterationen via Time-Boxing Verfahren festgelegt.
 
-![Meilensteinplanung](Assets/planung_hybrid_meilenteine.png)
+![Meilensteinplanung](Assets/planung_hybrid_meilensteine.png)
 
 #### 3.6.2 Ablaufplan und Ressourcenplanung
 
@@ -904,7 +916,7 @@ Beispiele:
 
 Projektplanung wird beim agilen Modell nicht bereits in der Initialisierungsphase gemacht
 
-![Unterschiede Projektplanung Agil und Klassisch](Assets/unterschied_agil_klassisch.png)
+![Unterschiede Projektplanung Agil und Klassisch](Assets/unterschiede_agil_klassisch.png)
 
 ## 4 Projektkommunikation
 
@@ -1171,7 +1183,7 @@ Nach dem Sprint geht der Product Owner zurück zum Kunden und bespricht die Anfo
 * In einem agilen Projekt lässt sich der Restaufwand nur anhand des aktuellen Sprints klar bestimmen. Das Produkte-Backlog kann sich ja ändern innerhalb des Sprints
 * Deshalb muss nach jedem Sprint-Ende die noch zu realisierenden Produkt-Backlog-Items ins eine Burndown Chart eingetragen werden.
 
-![Projektcontrolling Zusammenfassung](Assets/projektcontrolling_zf.png)
+![Projektcontrolling Zusammenfassung](Assets/projektkontrolling_zf.png)
 
 ## 7 Business Case
 
