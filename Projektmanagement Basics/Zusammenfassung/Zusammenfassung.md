@@ -1,4 +1,4 @@
-# Project Management Basic
+# Projekt Management Basic
 
 ## 1 Projekt Management Grundlagen
 
