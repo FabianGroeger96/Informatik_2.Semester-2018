@@ -805,3 +805,409 @@ Eine UserStory ist eine eigenständige Arbeitseinheit, die von den Entwicklern u
     * Estimated: Team schätzt Aufwand eines Backlog-Item
     * Emergent (Entwickelt sich, wird gepflegt): Wird lauffend gepflegt, der PO pflegt zusammen mit dem Team das Produkte-Backlog (grooming) 
     * Prioritised: Jedes Backlog-Item muss eine Priorität haben, damit man weis ob es in den nächsten Print reinkommt oder nicht.
+
+#### 3.6.4 Sprintplanung
+
+**Definition Sprintplanung**
+
+In der Sprintplanung geht es darum, wie viele der höchst priorisierten Backlog-Items in den nächsten Sprint aufgenommen wird. Der Product Owner erarbeitet mit dem Team das neue Sprint-Ziel.
+
+**Was soll erreicht werden?**
+
+Das Sprint-Ziel (in sich geschlossen, testbar, potentially shippable) soll erreicht werden. Mit den verfügbaren Ressourcen im gewünschtem Time-Boxing.
+
+1. Product Owner geht mit dem Team die höchst priorisierten Back-Log-Items durch.
+2. Epics die fachlich noch nicht präzise genug formuliert wurden, werden in mehrere User-Storys herunter gebrochen (Story-Spliting) 
+3. In der Sprint-Planung werden die User-Storys ergänzt. Zu jedem User Story gehören Akzeptanzkriterium.
+4. Besprechung der Eigenschaften, Abhängigkeiten sodass eine Aufwandschätzung der einzelnen Items gemacht werden kann. 
+5. Es werden dann nur so viele Stories in den Sprint-Backlog übertragen wie das Team potentiell liefern kann.
+
+**Wie ist eine User Story formuliert?**
+
+sollte folgendermassen formuliert sein:
+Als <Rolle> möchte ich <Ziel/Wunsch> um <Nutzen>.
+
+Eine UserStory ist **I.N.V.E.S.T**:
+**Independent:** Möglichst unabhängig
+**Negotiable:** möglichst zerlegbar, verhandelbar
+**Valuable:** Hat wirtschaftlichen Wert
+**Estimated:** So klar das es vom Team geschätzt werden kann
+**Small:** klein genug um in einem Sprint entwickelt werden zu können
+**Testable:** klare Akzeptanzkriterien
+
+![Beispiel User Story](Assets/userstory_example.png)
+
+#### 3.6.5 Aufwandschätzung
+
+Damit am Ende eines jeden Sprints eine potentiell lieferbare Software entsteht müssen alle Aufwände geschätzt werden.
+
+![Schätz-Ungenauigkeit](Assets/schaetz_ungenauigkeit.png)
+
+**Welche Elemente gehören in eine Aufwandschätzung bzw. müssen für jeden Sprint geplant und geschätzt werden?**
+
+* Entwurf & Dokumentation
+* Implementation & Unittests
+* Integration & Integrationstest
+* Sprintabnahme gemäss Akzeptanzkriterien
+
+Es sollen alle Team-Mitglieder mit schätzen, damit ein Kommittent auf das Sprintziel entsteht.
+
+#### 3.6.6 Ressourcenplanung & Scrumboard
+
+![Scrum Board](Assets/scrumboard.png)
+
+**Was lässt sich mit dem Taskboard / ScrumBoard überprüfen?**
+
+Mittels Taskboard lässt sich jederzeit überprüfen, welche Backlog-Items im Sprint umgesetzt werden oder wie der Status der einzelnen User-Storys oder Tasks sind. Eine User-Story wird in mehrere Tasks (To Do) unterteilt. Da sie meisst zu gross sind und oder unterschiedliche Skills benötigen, welche nicht alleine durch einen Mitarbeiter abgearbeitet werden kann.  Mittels dem Pull-Patern von Kanban ziehen die Mitglieder im Daily Scrum nach jedem abgeschlossenen Task einen neuen Task.
+
+![Klassisch Hybrid](Assets/klassisch_hybrid.png)
+
+#### 3.6.7 Projektkosten
+
+**Kosten und Aufwendungen – Zusammenhang?**
+
+Alle Kosten sind zu gleich Aufwendungen, aber nicht alle Aufwendungen zählen zu den Kosten.
+
+**Aufwand sind Kosten, wenn...**
+
+Alle Bedingungen müssen erfüllt sein, damit ein Aufwand zu Kosten gehört:
+
+* Betriebsbezogen: Aufwand muss mit betrieblichen Leistungen verbunden sein
+* Periodenbezogen: Aufwand muss in laufender Periode stattfinden
+* Ordentlich: Aufwand darf nicht zu ungewöhnlichen Ereignissen zählen. (Unfälle)
+
+**Projektkosten**
+sind einmalig
+
+Beispiele:
+
+* Hardware kauf von
+    * Server
+* Software
+    * Lizenzen
+* Personal
+    * Schulungen
+
+**Betriebskosten**
+sind laufende Kosten
+
+Beispiele:
+
+* Hardware
+    * Abschreibungen
+* Software
+    * Abschreibungen
+* Personal
+    * Schulung neuer MA
+
+**Unterschiede Projektplanung Agil und Klassisch**
+
+Projektplanung wird beim agilen Modell nicht bereits in der Initialisierungsphase gemacht
+
+![Unterschiede Projektplanung Agil und Klassisch](Assets/unterschied_agil_klassisch.png)
+
+## 4 Projektkommunikation
+
+**Welches sind die wichtigsten Instrumente / Mechanismen welches einem PL zur Verfügung stehen?**
+
+* Projektcontrolling
+* Projektrepporting
+* Projektsitzung
+* Test / Stichproben
+
+**Welches sind die wichtigsten Fähigkeiten eines Projektleiters?**
+
+* Leadership
+* Kommunikation mit Mitarbeiter
+* Verhandlungen
+* Problemlösungen
+
+**Welches sind die wichtigsten Kommunikations-Instrumente in einem Projekt?**
+
+* Projektsitzung
+* Projektrepporting
+
+### 4.1 Projektsitzung
+
+**Zwecke einer Projektsitzung / Daily Stand Up Meeting:**
+
+* Garantiert einen regelmäßigen Informationsfluss
+* Bezüglich Projektresultate übt einen gewissen Druck auf MA auf
+* Projektrepporting für PL
+
+**Agenda Projektsitzung:**
+
+* Begrüßung
+* Letztes Protokoll
+* Personelles / Abwesenheiten
+* Fachliches
+* Pendenzen
+* Open Issues
+
+### 4.2 Projektrepport
+
+Wichtigstes Kommunikationsmittel gegen außen. Für Empfänger Auftraggeber, wichtigste Stakeholder.
+Die wichtigsten Inhalte sind:
+
+* IST / Soll der Projektziele
+* Drohende Risiken / Probleme
+* Massnahmen und Gründe der Abweichung
+* Erzielte Erfolge
+* Zeitpunkt des Projektrepports
+
+### 4.3 Kommunikation mit Stakeholder
+
+Definition Stakeholder: Anspruchsgruppen die unmittelbar Einfluss auf den Projektfortschritt haben und vom Projektziel direkt / indirekt betroffen sind.
+
+Stakeholder Analyse Vorgehen:
+
+1. Stakeholder identifizieren
+2. Beziehungsanalyse
+3. Kommunikationsplan
+
+## 5 Risiko Management
+
+**Definition Risiko Management:**
+
+Risiko ist eine kalkulierte Prognose eines möglichen Schadens. Jenes Risiko muss minimiert werden welches am häufigsten eintritt / eintreten kann.
+
+Nach dem Abschluss des Meilensteines / Arbeitspaket soll das Projektrisiko neu beurteilt werden.
+
+**Ziel von Risikomanagement:**
+
+* Risiken erkennen
+* Massnahmen ergreifen
+* Risiken kontrollieren
+* Gutes Projektmanagement verhindert Risiken
+
+### 5.1 Risiken
+
+**Klassische Risiken:**
+
+* **Produktrisiken:** Welche Gefahren für Mensch & Umwelt treten bei Bau, Nutzung, Entsorgung des Produktes auf. Wie verhält sich das Produkt bei einem Teilausfall?
+* **Projektrisiken:** Was hindert mich daran mein Projekt erfolgreich abzuschliessen?
+    * Technische Risiken: zu wenig Know-Kow über die Technologie, Patente von Mitbewerbern
+    * Implementationsrisiken: Architektur & Design nicht korrekt, Anforderungen ändern sich,
+    * Wirtschaftliche Risiken: Mitbewerber stellen bessere Produkte her, Ressourcen stehen nicht zur Verfügung, Änderungen am Markt
+
+**Fünf Schritte zum Risikomanagement Prozess:**
+
+1. Risiko identifizieren
+2. Risiko Analysieren (Ursachen, Eintrittswahrscheinlichkeit, Schadenmass)
+3. Risiko Priorisieren (Risiko-Einstufung, Verantwortung festlegen)
+4. Massnahmen erarbeiten (Risikovermeidung, Schadensreduzierung)
+5. Risiko Überwachen (Regelmässig bewerten)
+
+### 5.2 Risiko Identifizieren
+
+**Hilfsmittel:**
+
+* Checklisten
+* Brainstorming
+* Übertragung von früheren Erfahrungen
+
+### 5.3 Risiko analysieren
+
+**Risiko-Eintritt:** Ein Risiko hat eine Eintrittswahrscheinlichkeit. Beim Risikoeintritt materialisiert sich das Risiko (Schaden in Zeit oder Geld). Risikoeintritt ist Startsignal zur Schadensbegrenzung.
+**Eintrittsindikatoren:** Zeigen evtl. Frühzeitig das Eintreten des Risikos an.
+
+![Risiko Analysieren](Assets/risiko_analyse.png)
+
+### 5.4 Risiko priorisieren
+
+**Risiko Landkarte:**
+
+![Risiko Landkarte](Assets/risiko_landkarte.png)
+
+Verschiedene, unabhängige Gruppen sollen die Risiken quantifizieren. Nie die Schlüsselpersonen alleine das Risiko bewerten lassen.
+
+![Beispiel Risikobeschreibung](Assets/example_risikobeschreibung.png)
+
+### 5.5 Massnahmen erarbeiten
+
+**4 Risikomassnahmen:**
+
+* **Vermeiden:** Eintrittswahrscheinlichkeit reduzieren
+* **Behandeln:** Zusätzlicher Aufwand um Eintrittswahrscheinlichkeit zu reduzieren. Z. B Prototypen erstellen
+* **Begrenzen:** Aktionen zur Abschwächung, diese müssen stetig kontrolliert werden
+* **Ignorieren**
+
+### 5.6 Risiko überwachen
+
+Laufend überwachen: hat sich etwas geändert? Greifen die Aktionen zur Abschwächung...
+
+Durch konsequente Überwachung und Steuerung des Projektes kann das Risiko minimiert werden.
+
+### 5.7 Zusammenfassung
+
+**Eintrittswahrscheinlichkeit** sollen minimiert werden durch vorbeugende Massnahmen z.B durch Prototypen und riskante Tätigkeiten früh genug angehen. Auswirkungen von Ereignissen minimieren (Eventuelpfad, alternative Lieferanten)
+
+## 6 Projektcontrolling
+
+### 6.1 Lernziele
+
+* LZ1: Sie können erläutern, warum Projektcontrolling betrieben wird.
+* LZ2: Sie sind in der Lage, auf Grundlage einer Liste von Arbeitspaketen ein sauberes Controlling für ein Software-Projekt aufzusetzen.
+* LZ3: Sie kennen die Projektcontrolling-Instrumente in der agilen Entwicklung.
+
+### 6.2 Klassische Projektleitung
+
+**Warum wird Projekt-Controlling durchgeführt?**
+
+Projektcontrolling umfasst alle Aktivitäten um projektbezogene Abweichungen zwischen dem Sollzustand und Ist-Zustand aufzudecken.
+
+**Ziele von Projekt-Controlling**
+
+* Risikoeintrittsindikatoren frühzeitig erkennen (technische Risiken, Fehlerhafter Zeitplan)
+* Überprüfung ob alle Ressourcen ausgelastet sind
+* Post-Mortem-Analyse um wichtige Erkenntnisse für die nächsten Projekte zu sammeln
+
+**Was ist Projekt-Controlling?**
+
+Regelmäßiges Abgleichen des Projektes zwischen Sollzustand und Ist-Zustand.
+
+**Was dient als Grundlage für das Projekt-Controlling?**
+Der Projektplan
+
+**Auf welcher Ebene wird das Projekt-Controlling durchgeführt?**
+
+* Projektziele
+* Projektresultate
+* Teilresultate
+* Arbeitspakete
+
+Auf der Ebene von Arbeitspaketen.
+Denn wenn unten die Arbeitspakete auf Grün sind, sind die oberen Ziele ebenfalls auf grün. Wenn jedoch das Projektziel grün ist, muss es nicht heissen, dass die Arbeitspakete ebenfalls grün sind.
+
+**Welche Stati können Arbeitspakete im klassischen Projekt-Controlling haben?**
+
+* Offen, noch nicht begonnen
+* Begonnen aber noch nicht fertig
+* Fertig
+
+**Welche Kriterien müssen erfüllt sein, damit ein Arbeitspaket „fertig“ ist (absoluter Fertigstellungsgrad)?**
+
+* Code muss integriert und getestet sein
+* Freigabeprozess (Review) für Dokumentation beendet
+
+**Was bedeutet RAS?**
+
+Rest-Aufwand-Schätzung: So viel Aufwand werden wir voraussichtlich noch brauchen.
+
+**Wie wird das wahrscheinliche Gesamtergebnis eines Arbeitspaketes berechnet?**
+
+* Soll-Ist-RAS = Gesamtergebnis
+    * Positiv = Vorsprung
+    * Negativ = Verzug
+* Rest-Budget = Soll-Ist
+
+**Was ist die Meilenstein-Trend-Analyse?**
+
+Sie verdeutlicht auf einen Blick den Stand und Planungsverlauf des Projektes anhand der Meilensteine.
+
+**Regelkreis des Projekts-Controllings**
+
+1. **Zieldefinition:** Die Projektziele werden nach S.M.A.R.T definiert. (Bsp. Gewinnmaximierung, Kundenzufriedenheit, Neue Software im Unternehmen)
+2. **Planung** Wie werden die Ziele erreicht? Welche Massnahmen / Arbeitspakete müssen abgearbeitet werden um die Ziele zu erreichen?
+3. **Datenerfassung** Regelmässige Ist-Daten erheben 
+4. **Soll-Ist-Vergleich** Beschränkung auf den Vergleich ohne vorschnell Entschlüsse zu fassen
+5. **Abweichungsanalyse** Warum sind Abweichungen aufgetreten? Sind diese vernachlässigbar, systematisch?
+6. **Massnahmen** Nach dem Analysieren der Abweichungen werden geeignete Massnahmen definiert
+7. **Erfolgskontrolle** der eingeleiteten Massnahmen
+
+### 6.2 Agile Projektleitung
+
+**Unterschied Klassisch und Hybrid**
+
+Klassisch: Die Anforderung 1 wird im Sprint 1 abgehandelt. Die Anforderung 2 wird im Sprint 2 angehandelt usw...
+
+Hybrid: Dier erst Priorisierten nehmen wir in den ersten Sprint, was übrigbleibt und nicht erledigt werden konnten, in den Backlock zurück. Grooming wieder priorisieren und wir gehen in dem nächsten Sprint.
+
+**Was ist das Problem beim agilen Projekt-Controlling?**
+
+Gefahr: Es kann sein, dass beim letzten Sprint, die Anforderung 10 im Backlock bleibt. Die Zeit ist fix. Der Aufwand ist fix. Aber die Leistung ist nicht fix.
+
+Grooming = Wieder Priorisieren
+
+**Wer bestimmt was in den nächsten Sprint kommt?**
+
+Der Product Owner hat das Ziel die Anforderungen zu Priorisieren. Der Product Owner repräsentiert den Kunden, und geht zu ihm und weiss, welche Anforderungen eine Priorität haben.
+
+Nach dem Sprint geht der Product Owner zurück zum Kunden und bespricht die Anforderungen mit dem Kunden.
+
+![Controlling Scrum](Assets/controlling_scrum.png)
+
+* Nach jedem Sprint (haben wir alles erreicht?)
+* Daily Meeting
+* Produkt-Backlog kontrollieren (Punkteverbage pro Aufgabenstellung) Wir haben 12 Sprint und müssen somit 10 Punkte pro Sprint abarbeiten damit das Projekt fertig wird
+
+**Was ist ein Scrum-Board? Nenne die wesentlichen Punkte.**
+
+* Sprint Fortschrittskontrolle
+* Wird beim Daily Meeting aktualisiert
+* Enthält alle User-Storys welche zu diesem Sprint gehören, enthält den Fertigstellungsgrad einer User-Story
+
+**Was ist eine Burn-Down-Chart? Nenne die wesentlichen Punkte.**
+
+* Eine Sprint-Fortschrittsanalyse
+* Aufzeigen wie viele Arbeit bis zum Sprint-Ende noch geleistet werden muss
+* X-Achse Tage bis zum Sprint Ende, Y-Achse zu leistende Arbeitsstunden
+* Basiert auf RAS und Schätzungen der Sprint-Planung
+
+![Sprint Burn-down Chart](Assets/sprint_burn_down_chart.png)
+
+**Was ist ein Sprint-Review-Meeting?**
+
+* Nach jedem Sprint werden die Sprint-Ergebnisse validiert
+* Ganzes Scrum-Team nimmt teil
+* Product-Owner passt das Produkte-Backlog an wenn nötig (Grooming)
+
+**Sprint-Retroperspektive**
+
+* KVP (Kontinuierlicher Verbesserungsprozess)
+
+**Problematik Restaufwand und agiles Projekt**
+
+* In einem agilen Projekt lässt sich der Restaufwand nur anhand des aktuellen Sprints klar bestimmen. Das Produkte-Backlog kann sich ja ändern innerhalb des Sprints
+* Deshalb muss nach jedem Sprint-Ende die noch zu realisierenden Produkt-Backlog-Items ins eine Burndown Chart eingetragen werden.
+
+![Projektcontrolling Zusammenfassung](Assets/projektcontrolling_zf.png)
+
+## 7 Business Case
+
+**Was ist ein Business Case?**
+
+Ein Business Case ist eine Entscheidungsvorlage für ein Vorgaben, die eine qualitative und quantitative Begründung für ein Vorhaben liefert.
+
+Ein Business Case untersucht ein bestimmtes Geschäftsszenario hinsichtlich dessen Rentabilität einer Investitionsmöglichkeit. Er dient zur Darstellung und Abwägung der prognostizierten finanziellen und strategischen Auswirkungen der Investition.
+
+**Aus welchen zwei Teilen besteht ein Business-Case?**
+
+* Sachliche (qualitative) Begründung eines Vorhabens
+    * Umfang und Abgrenzung
+    * Kosten für Anpassungen
+    * Projektkosten
+    * Management Kosten
+* Wirtschaftliche (quantitativ) Begründung des Vorhabens
+    * Welchen Nutzen und Kosten bringt mir dieses Projekt?
+    * Erparnisse / Verkürzung Time-to-Market
+    * Kann weggelassen werden, wenn eine neue Geschäftsidee umgesetzt werden soll. Bsp. Online Werbung Anfang der 90er Jahre. Es gab noch keine Erfahrungen auf diesem Gebiet, deshalb kann der Nutzen auch nicht beurteilt werden. Oder beispielsweise lässt sich nur schwer messe, wie viele % meiner Kunden nach dem Projekt glücklicher sein werden.
+
+**Welche Hauptnutzenarten für IT-Systeme gibt es:**
+
+Zeitersparnis, Effizienz, Übersicht, Ablösung anderer Versionen, Automatisieren, Schnittstellen (neue Schnittstellen einführen)
+
+**Welche Hauptkostenarten für IT-Systeme gibt es?**
+
+Wartung, Entwicklung, Lizenzen, Einführung, Schulung und Infrastruktur
+
+**Wie ist ein Business Case gegliedert?**
+
+![Business Case Gliederung](Assets/business_case_gliederung.png)
+
+![Business Case Beispiel](Assets/business_case_example.png)
+
+**Nennen Sie eine Methode zur Wertbestimmung einer Investition**
+
+* Kapitalwertmethode
+* Cashflows die in der Zukunft liegen werden auf heute zurück gerechnet (diskontiert)
